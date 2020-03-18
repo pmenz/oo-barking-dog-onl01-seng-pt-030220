@@ -1,11 +1,20 @@
 # Your code goes here!
 class Dog
-  #constructor to initialize the class with a link_to_remote
+  #constructor to initialize the class wit
+  #with a name 
+  #instance variable 
+  
   def bark 
     puts "woof!"
   end
   
-  def name
-    puts "Fido"
+  def name_dog(name)
+    @name = name
   end
+  #accessor get helper_method
+  attr_reader:name  
+end 
 end
+
+dog.new"fido"
+puts dog.name
