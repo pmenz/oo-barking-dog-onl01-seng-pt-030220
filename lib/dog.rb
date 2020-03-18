@@ -1,13 +1,3 @@
 class Dog
-  
-def bark 
-  puts "woof!" 
+  attr_accessor :bark, :name
 end
-
-def name(name)
-  puts name 
-end
-end
-
-
-fido.name
