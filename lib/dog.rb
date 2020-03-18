@@ -4,7 +4,7 @@ def bark
   puts "woof!" 
 end
 
-def name 
+def name(name)
   puts name 
 end
 end
