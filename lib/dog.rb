@@ -8,7 +8,7 @@ class Dog
     puts "woof!"
   end
   
-  def name_dog(name)
+  def initialize(name)
     @name = name
   end
   #accessor get helper_method
