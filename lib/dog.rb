@@ -16,5 +16,5 @@ class Dog
 end 
 end
 
-dog.new"fido"
+dog1 = Dog.new"fido"
 puts dog.name
