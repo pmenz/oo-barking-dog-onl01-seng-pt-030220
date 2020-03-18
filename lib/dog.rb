@@ -14,7 +14,7 @@ class Dog
   #accessor get helper_method
   attr_reader:name  
 end 
-end
+
 
 dog1 = Dog.new"fido"
 puts dog.name
