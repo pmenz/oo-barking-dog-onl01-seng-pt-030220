@@ -17,4 +17,4 @@ end
 
 
 dog1 = Dog.new"Fido"
-puts dog.name
+puts dog1
