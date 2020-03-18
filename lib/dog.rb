@@ -1,8 +1,11 @@
 class Dog
-  attr_accessor :bark, :name
+  attr_accessor:name
+ 
+  def bark
+    puts "woof"
+  end
 end
 
 
 fido = Dog.new()
-fido.bark = "woof!"
 fido.name = "Fido"
