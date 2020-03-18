@@ -5,7 +5,7 @@ class Dog
     puts "woof!"
   end
   
-  def name=(name)
-    puts @name
+  def name=("Fido")
+    puts name
   end
 end
