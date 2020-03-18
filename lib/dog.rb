@@ -12,7 +12,7 @@ class Dog
     @name = name
   end
   #accessor get helper_method
-  attr_reader:name  
+  attr_reader :name  
 end 
 
 
