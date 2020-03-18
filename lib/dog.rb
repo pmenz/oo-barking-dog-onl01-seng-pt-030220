@@ -8,3 +8,6 @@ def name(name)
   puts name 
 end
 end
+
+
+fido.name
